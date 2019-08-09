@@ -1,4 +1,4 @@
-package com.larry.boot.sixexample;
+package com.larry.boot.protobuf;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -8,17 +8,14 @@ import io.netty.handler.codec.protobuf.ProtobufEncoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
 
-import javax.activation.DataHandler;
-
 /**
- * @version V1.0
  * @Author: Larry(PC)
  * @Email: zhang_ying@suixingpay.com
  * @phone: 13552892515
- * 创建日期：2019/8/9 15:20
+ * 创建日期：2019/8/9 15:06
+ * @version V1.0
  */
-public class DataClientInitializer extends ChannelInitializer<SocketChannel>{
-
+public class DataServerInitializer extends ChannelInitializer<SocketChannel>{
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline pipeline = ch.pipeline();
@@ -28,7 +25,7 @@ public class DataClientInitializer extends ChannelInitializer<SocketChannel>{
         pipeline.addLast(new ProtobufVarint32LengthFieldPrepender());
         pipeline.addLast(new ProtobufEncoder());
 
-        pipeline.addLast(new DataClientHandler());
+        pipeline.addLast(new DataServerHandler());
 
     }
 }

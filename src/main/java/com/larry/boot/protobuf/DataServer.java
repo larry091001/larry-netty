@@ -1,4 +1,4 @@
-package com.larry.boot.sixexample;
+package com.larry.boot.protobuf;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

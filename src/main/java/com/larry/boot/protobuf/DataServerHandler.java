@@ -1,4 +1,4 @@
-package com.larry.boot.sixexample;
+package com.larry.boot.protobuf;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
