@@ -16,9 +16,11 @@ dependencies {
     testCompile(
             "junit:junit:4.12"
     )
+
     compile(
             "org.wso2.orbit.io.netty:netty-all:4.0.39.wso2v1",
             "com.google.protobuf:protobuf-java:3.9.1",
             "com.google.protobuf:protobuf-java-util:3.9.1",
+            "org.apache.thrift:libthrift:0.12.0"
     )
 }

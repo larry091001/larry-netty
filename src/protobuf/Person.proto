@@ -2,7 +2,7 @@ syntax = "proto2";
 package com.larry.boot.sixexample;
 
 option optimize_for = SPEED;
-option java_package = "com.larry.boot.sixexample";
+option java_package = "com.larry.boot.protobuf";
 option java_outer_classname = "MyDataInfo";
 
 message MyMessage{
