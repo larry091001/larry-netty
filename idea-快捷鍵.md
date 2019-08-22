@@ -1,6 +1,5 @@
 <h1>idea 快捷键</h1>
 
-Ctrl+s  GsonFormat 插件生成实体窗口    <br/>
 Ctrl+D  复制下行                      <br/>
 Ctrl+X  当行剪切                      <br/>
 Ctrl+R  替换文本                      <br/>
@@ -16,6 +15,7 @@ Ctrl+Shift+F 全局查找                 <br/>
 Ctrl+F      查找/Shift+F3，向上查找/F3，向下查找 <br/>
 Ctrl+Shift+S 高级搜索                 <br/>
 
+Alt+s  GsonFormat 插件生成实体窗口    <br/>
 Alt+Insert 生成setting，getting方法   <br/>
 Alt+Enter  优化导入的类和包           <br/>
 Alt+↓       复制向下移动              <br/>
