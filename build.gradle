@@ -25,3 +25,8 @@ dependencies {
             "org.apache.commons:commons-lang3:3.6"
     )
 }
+
+task wrapper(type: wrapper){
+    gradleVersion = '3.4'
+    distributionType = 'all'
+}
