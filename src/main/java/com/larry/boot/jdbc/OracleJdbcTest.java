@@ -35,7 +35,7 @@ public class OracleJdbcTest {
             Properties pro = new Properties();
             pro.put("user", "ogg");
             pro.put("password", "ogg");
-            connect = driver.connect("jdbc:oracle:thin:@172.16.138.68:1521:source", pro);
+            connect = driver.connect("jdbc:oracle:thin:@127.0.0.1:1521:source", pro);
 
             //测试connect正确与否
             System.out.println(connect);
